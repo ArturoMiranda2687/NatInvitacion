@@ -1,6 +1,6 @@
 const actualizador = setInterval(function(){    
     
-    var evento = 'Dec 25 2023 18:50:00 GMT-0500'
+    var evento = 'jan 13 2024 12:00:00 GMT-0500'
 
     const diadelevento = new Date(evento).getTime();
     const hoy = new Date().getTime();
