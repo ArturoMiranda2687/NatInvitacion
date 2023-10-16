@@ -26,3 +26,11 @@ h4{
 p{
     font-size: 1.6rem;
 }
+iframe{
+    width: 400px;
+    height:300px;
+    border-style: 0;
+}
+.oculta{
+    visibility: hidden;
+}
