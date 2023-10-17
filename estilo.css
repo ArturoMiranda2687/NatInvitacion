@@ -29,6 +29,16 @@ h4{
 p{
     font-size: 1.6rem;
 }
+img{
+    width: 50%;
+    border-radius: 15%;
+    border: 1px solid var(--violeta);
+}
+.fotoPresentacion{
+    width: 35%;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
 .padrinosMarcos{
     display: flex;
     flex-direction: row;
