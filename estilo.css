@@ -29,6 +29,13 @@ h4{
 p{
     font-size: 1.6rem;
 }
+.padrinosMarcos{
+    display: flex;
+    flex-direction: row;
+}
+.padrinosMarcos figure{
+    width: 45%;
+}
 iframe{
     width: 400px;
     height:300px;
