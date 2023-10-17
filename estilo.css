@@ -45,7 +45,10 @@ iframe{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 95%;
 }
 .oculta{
     visibility: hidden;
+    width: 1px;
+    height: 1px;
 }
