@@ -1,5 +1,6 @@
 :root{
     --violeta: #9000b4;
+    --fondo: #d79ce5d8;
 }
 *{
     box-sizing: border-box;
@@ -13,31 +14,44 @@ html{
 h1{
     color: var(--violeta);
     font-size: 3.2rem;
+    margin: 3px auto 5px;
 }
 h2{
     font-size:2.8rem ;
     color: var(--violeta);
+    margin: 3px auto 5px;
 }
 h3{
     font-size:2.4rem ;
     color: var(--violeta);
+    margin: 3px auto 5px;
 }
 h4{
     font-size:2rem ;
     color: var(--violeta);
+    margin: 3px auto 5px;
+}
+section{
+    margin: 5px auto;
 }
 p{
     font-size: 1.6rem;
 }
 img{
     width: 50%;
+    aspect-ratio: 1/1;
     border-radius: 15%;
     border: 1px solid var(--violeta);
+    object-fit: cover;
 }
+
 .fotoPresentacion{
     width: 35%;
     aspect-ratio: 1/2;
     object-fit: cover;
+}
+.papa{
+    background-color: var(--fondo);
 }
 .padrinosMarcos{
     display: flex;
