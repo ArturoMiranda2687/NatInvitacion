@@ -16,12 +16,15 @@ h1{
 }
 h2{
     font-size:2.8rem ;
+    color: var(--violeta);
 }
 h3{
     font-size:2.4rem ;
+    color: var(--violeta);
 }
 h4{
     font-size:2rem ;
+    color: var(--violeta);
 }
 p{
     font-size: 1.6rem;
@@ -30,6 +33,11 @@ iframe{
     width: 400px;
     height:300px;
     border-style: 0;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .oculta{
     visibility: hidden;
