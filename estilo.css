@@ -2,6 +2,17 @@
     --violeta: #9000b4;
     --fondo: #d79ce5d8;
 }
+@keyframes lluvia {
+    0%{
+        
+       transform: translate(0,1000vh);
+
+    }
+    100%{
+        transform: translate(0)
+        transform: color(white)
+    }
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -75,4 +86,13 @@ iframe{
     visibility: hidden;
     width: 1px;
     height: 1px;
+}
+.dot{
+    z-index: 3;
+    position: absolute;
+    width: 10px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: #9000b4;
+    animation: lluvia 15s linear 0s infinite alternate-reverse;
 }
